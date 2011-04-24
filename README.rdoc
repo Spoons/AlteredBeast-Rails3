@@ -1,5 +1,5 @@
 == Belg Shit
-  $ git clone git://github.com/Spoons/altered_beast.git
+  $ git clone git://github.com/Spoons/altered_beast_heroku.git
   $ cd altered_beast
   * Push that shit to heroku
   $ heroku addons:add sendgrid:free
@@ -12,14 +12,3 @@
   $ user = site.all_users.build :login => ‘username’, :email => ‘youremail@test.com’, :admin => true
   $ user.password = user.password_confirmation = ‘yourpassword’
   $ user.save!
-
-=== INSTALLATION
-
-    $ git clone git://github.com/stiff/altered_beast.git
-    $ cd altered_beast
-    $ bundle install
-    $ rake app:bootstrap
-
-    Follow the instructions to create your database and load users.
-    Start the application with script/server and visit http://localhost:3000 to 
-    visit your new forum.
