@@ -1,14 +1,2 @@
 == Belg Shit
-  $ git clone git://github.com/Spoons/altered_beast_heroku.git
-  $ cd altered_beast
-  * Push that shit to heroku
-  $ heroku addons:add sendgrid:free
-  $ heroku rake db:schema:load
-  $ heroku rake db:migrate
-  
-  $ heroku console
-  $ site = Site.new :name => ‘The Name of Your Site’, :host => ‘yoursite.heroku.com’
-  $ site.save!
-  $ user = site.all_users.build :login => ‘username’, :email => ‘youremail@test.com’, :admin => true
-  $ user.password = user.password_confirmation = ‘yourpassword’
-  $ user.save!
+Altered Beast Forum
