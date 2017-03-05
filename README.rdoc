@@ -1,2 +1,2 @@
 == Belg Forum
-Altered Beast Forum
+This fork of Altered Beast has been updated to run on Rails 3.
